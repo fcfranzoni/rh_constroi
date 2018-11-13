@@ -1,12 +1,14 @@
+
 import React, { Component } from 'react'
+import Main from "../Main";
 
 class Home extends Component {
     render() {
 
         return (
             <div>
-                Home
-      </div>
+                <Main pageActive="fullMenu"></Main>
+            </div>
         )
     }
 }

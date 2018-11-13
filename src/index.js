@@ -19,7 +19,7 @@ import registerServiceWorker from './registerServiceWorker'
 // import ModalImportTransportListStore from './containers/Routines/ReceiptBilled/components/ModalImportTransportList/store'
 
 // css
-// import "semantic-ui-css/semantic.min.css";
+import "semantic-ui-css/semantic.min.css";
 import './index.css'
 
 const stores = {

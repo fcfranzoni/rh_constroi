@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 // import Notifications from 'react-notify-toast'
 import { Container } from 'semantic-ui-react'
 import Nav from '../../components/Nav'
-import './Style/index.css'
+//import './Style/index.css'
 
 const propTypes = {
   pageActive: PropTypes.string,
