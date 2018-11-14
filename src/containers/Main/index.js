@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 // import Notifications from 'react-notify-toast'
 import { Container } from 'semantic-ui-react'
-import Nav from '../../components/Nav'
+import Nav from '../../components/Nav/Nav'
 //import './Style/index.css'
 
 const propTypes = {
@@ -14,7 +14,7 @@ class Main extends Component {
   render() {
     return (
       <div className="page">
-        <Nav />
+      <Nav />
         <Container className="page-container">{this.props.children}</Container>
         {/* <Notifications options={{ zIndex: 1001 }} /> */}
       </div>

@@ -2,7 +2,7 @@
 import React, { Component } from 'react'
 import Main from "../Main";
 
-class Home extends Component {
+class User extends Component {
     render() {
 
         return (
@@ -10,11 +10,11 @@ class Home extends Component {
                 <Main pageActive="fullMenu">
                 
                 
-                teste
+                user
                 </Main>
             </div>
         )
     }
 }
 
-export default Home
+export default User
