@@ -10,13 +10,15 @@ import Nav from '../components/Nav/Nav';
 
 
 const Routes = () => (
-  <Switch>
-    <Route exact path={`${process.env.PUBLIC_URL}/`} component={Login} />
-    <Route path={`${process.env.PUBLIC_URL}/login`} component={Login} />     
-    <Route path={`${process.env.PUBLIC_URL}/home`} component={Home} />
-    <Route path={`${process.env.PUBLIC_URL}/user`} component={User} />
-    <Redirect to='/' />
-  </Switch>
+  <Router history={History}>
+    <Switch>
+        <Route exact path={`${process.env.PUBLIC_URL}/`} component={Login} />
+        <Route path={`${process.env.PUBLIC_URL}/login`} component={Login} />
+        <Route path={`${process.env.PUBLIC_URL}/home`} component={Home} />
+        <Route path={`${process.env.PUBLIC_URL}/user`} component={User} />
+        <Redirect to='/' />
+    </Switch>
+  </Router>
 );
 
 export default Routes
